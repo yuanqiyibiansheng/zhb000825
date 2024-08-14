@@ -1,0 +1,85 @@
+CuiFront {
+
+    .main-control,
+    .speaker_setting,
+    .device_setting {
+        align: left bottom;
+        text-align: center;
+
+        height: auto;
+        border: solid #383b38;
+        border-title-color: $success;
+    }
+
+    .main-control {
+        Button {
+            width: 12;
+            min-width: 12;
+            margin: 0 2 0 2;
+        }
+
+        Button.active {
+            background: $success;
+        }
+    }
+
+    .speaker_setting,
+    .device_setting {
+        .field-name {
+            width: 18;
+            min-width: 12;
+            margin: 0 2 0 2;
+        }
+
+        .arrow-button {
+            height: 1;
+            border: none;
+            width: 4;
+            min-width: 4;
+        }
+
+        .arrowed-value {
+            width: 4;
+            min-width: 4;
+            text-align: center;
+        }
+
+        .field-select {
+            width: 14;
+            min-width: 14;
+            margin: 0 2 0 2;
+        }
+
+        .field-device-select {
+            width: 64;
+            min-width: 64;
+            margin: 0 2 0 2;
+        }
+
+        /* Select {
+            width: auto;
+        } */
+    }
+
+
+}
+
+.one-line-horizontal {
+    height: 1;
+}
+
+Select {
+    height: 1;
+    border: none;
+    padding: 0;
+    margin: 0;
+
+    &:focus>SelectCurrent {
+        border: none;
+    }
+
+    &>SelectCurrent {
+        border: none;
+        padding: 0;
+    }
+}
