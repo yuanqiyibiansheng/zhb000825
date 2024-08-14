@@ -1,0 +1,69 @@
+{
+    "shortcuts": [
+        {
+            "command": "ctrl+c",
+            "function": "dummy",
+            "description": "NOOP"
+        },
+        {
+            "command": "q",
+            "function": "quit",
+            "description": "Quit"
+        },
+        {
+            "command": "right",
+            "function": "increase_pitch_shift",
+            "description": "increase pitch shift"
+        },
+        {
+            "command": "left",
+            "function": "decrease_pitch_shift",
+            "description": "decrease_pitch_shift"
+        },
+        {
+            "command": "1",
+            "function": "set_speaker(1,0)",
+            "description": ""
+        },
+        {
+            "command": "2",
+            "function": "set_speaker(2,0)",
+            "description": ""
+        },
+        {
+            "command": "3",
+            "function": "set_speaker(3,0)",
+            "description": ""
+        },
+        {
+            "command": "4",
+            "function": "set_speaker(4,0)",
+            "description": ""
+        },
+        {
+            "command": "5",
+            "function": "set_speaker(5,0)",
+            "description": ""
+        },
+        {
+            "command": "6",
+            "function": "set_speaker(6,0)",
+            "description": ""
+        },
+        {
+            "command": "7",
+            "function": "set_speaker(7,0)",
+            "description": ""
+        },
+        {
+            "command": "8",
+            "function": "set_speaker(8,0)",
+            "description": ""
+        },
+        {
+            "command": "9",
+            "function": "set_speaker(9,0)",
+            "description": ""
+        }
+    ]
+}
